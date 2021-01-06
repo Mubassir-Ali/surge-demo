@@ -1,0 +1,76 @@
+:root{
+    --primary-color:#D8BFAA;
+    --dark-color:#34403A;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1024px;
+    padding: 0 3rem;
+    margin: 0 auto;
+    overflow: auto;
+ 
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+
+.btn{
+    display: inline-block;
+    color: #333;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;  
+}
+
+.btn-outline{
+    border-color: transparent;
+    border: 1px rgb(163, 52, 52) solid ;
+}
+
+.btn:hover{
+    transform: scale(0.95);
+}
+
+
+.py-1{
+    padding: 1rem 0;
+}
+
+.p1{
+    padding: 1rem ;
+}
